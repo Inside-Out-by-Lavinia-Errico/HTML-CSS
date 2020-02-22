@@ -1,0 +1,47 @@
+nav {width:100%; height:165px; background-color:transparent; overflow:hidden;}
+nav.about-io {background-color:#fdf9f4;}
+nav.about-io #ham-menu span {background: #000 !important;}
+
+nav.hero-image {background-color:transparent;}
+nav.hero-image .menubar {top:0px !important;}
+
+nav .nav-wrap {width: 95%;margin: 0px auto;overflow: hidden;position: relative;z-index: 9990;}
+nav .nav-lft {width: 33.33%;float: left;height: 165px;}
+nav .nav-mdl {width: 33.33%;float: left;height: 165px;}
+nav .nav-rgt {width: 33.33%;float: left;height: 165px;position: relative;}
+nav .nav-rgt .nav-ham-menu {right: 5%;top: 31%;}
+
+nav .logmenu {width: 300px;height: 85px;margin: 40px auto;cursor: pointer;}
+nav .logmenu img {width:100%;}
+
+/* menubar */
+.menubar {
+    display:none; width: 100%;height: calc(100% + 50px);position: absolute;left: 0;top: 50px;z-index: 999;overflow: hidden;background-color: #f7adce;
+}
+.menubar .content {width: 100%;height: 65vh;margin-top: 24vh;}
+ul.cl-nav {list-style-type: none;padding: 0px;width: 100%;height: max-content;margin: 60px auto;overflow: hidden;}
+ul.cl-nav > li {width: calc(33.33% - 50px);float: left;padding-left: 50px;}
+ul.cl-nav > li > ul {list-style-type: none;margin: 0px;padding: 0px;}
+ul.cl-nav > li > ul > li {width: auto;height: auto;padding: 10px 0;}
+ul.cl-nav > li > ul > li > h3 {color: #ed008c;font-size: 14pt;padding-bottom: 12px;font-weight: 600;}
+ul.cl-nav > li > ul > li > a {color: #ed008c;text-decoration: none;text-transform: initial;font-family: "miller-display",serif;font-size: 20pt;font-weight: 500;}
+ul.cl-nav > li > ul > li > a:hover {color:#000;}
+
+/* ham burger menu icon */
+#ham-menu {width: 40px;height: 45px;position: absolute;-webkit-transform: rotate(0deg);-moz-transform: rotate(0deg);-o-transform: rotate(0deg);transform: rotate(0deg);cursor: pointer;}
+#ham-menu span {display: block;position: absolute;height: 1px;width: 100%;background: #ffffff;border-radius: 10px;opacity: 1;left: 0;-webkit-transform: rotate(0deg);-moz-transform: rotate(0deg);-o-transform: rotate(0deg);transform: rotate(0deg);-webkit-transition: .25s ease-in-out;-moz-transition: .25s ease-in-out;-o-transition: .25s ease-in-out;transition: .25s ease-in-out;}
+
+#ham-menu span:nth-child(1) {top: 0px;}
+#ham-menu span:nth-child(2),#ham-menu span:nth-child(3) {top: 12px;}
+#ham-menu span:nth-child(4) {top: 24px;}
+#ham-menu.open span:nth-child(1) {top: 18px;width: 0%;left: 50%;}
+#ham-menu.open span:nth-child(2) {-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);-o-transform: rotate(45deg);transform: rotate(45deg);background: #ec008c;}
+#ham-menu.open span:nth-child(3) {-webkit-transform: rotate(-45deg);-moz-transform: rotate(-45deg);-o-transform: rotate(-45deg);transform: rotate(-45deg);background: #ec008c;}
+#ham-menu.open span:nth-child(4) {top: 18px;width: 0%;left: 50%;}
+
+/* chaser menubar */
+.is-chaser {position: fixed !important;top: 0px !important;background-color: #f5f5f5 !important;border-bottom: 1px solid #a9a9a9 !important;z-index: 9999 !important;box-shadow: 0px 2px 15px rgba(72, 72, 72, 0.35);margin: 0px;width: 100%;left: 0px;height: 75px;}
+.is-chaser .logmenu {margin-top: 2px !important;}
+.is-chaser .logmenu img {width: 185px !important;}
+.is-chaser .nav-ham-menu {top: 14% !important;}
+.is-chaser .nav-ham-menu span {background: #000000 !important;}

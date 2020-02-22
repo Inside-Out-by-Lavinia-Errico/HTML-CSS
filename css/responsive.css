@@ -1,0 +1,211 @@
+html {overflow-x: hidden !important;}
+
+/************************************************************************************
+smaller than 1480 (the default size of the website)
+*************************************************************************************/
+
+@media screen and (max-width: 1480px) {
+	/* your code here */
+	html {overflow-x: hidden;}
+	
+}
+
+/************************************************************************************
+smaller than 1366
+*************************************************************************************/
+
+@media screen and (max-width: 1366px) {
+	/* your code here */
+	html {overflow-x: hidden;}
+	
+}
+
+/************************************************************************************
+smaller than 1280
+*************************************************************************************/
+
+@media screen and (max-width: 1280px) {
+	/* your code here */
+    html {overflow-x: hidden;}	
+    
+    section.welcome-site .title-left {left:-5%;}
+    section.welcome-site .title-right {right: -5%;}
+    section.about-lavinia .title-right {right:-10%;}
+	
+	
+}
+
+/************************************************************************************
+smaller than 1170
+*************************************************************************************/
+
+@media screen and (max-width: 1170px) {
+	/* your code here */
+    html {overflow-x: hidden;}
+    
+    section.welcome-site .title-left {left:-7%;}
+    section.welcome-site .title-right {right: -7%;}
+    section.welcome-site .wrapper {width:75%;}
+
+    section.about-lavinia .title-right {right: -13%;}
+    section.about-lavinia .wrapper {width:75%;}
+    .main {width:100%;}
+    .main .grid-5 {width: calc(40% - 50px);}
+    .main .grid-6 {width: calc(60% - 50px);}
+
+    section.about-lavinia .title-left {top: 20vh;}
+		
+}
+
+
+/************************************************************************************
+smaller than 1024
+*************************************************************************************/
+
+@media screen and (max-width: 1024px) {
+	/* your code here */
+    html {overflow-x: hidden;}
+    
+    footer .ftrrmnu p {position: relative;right: 0px;width: auto;text-align: left;}
+    footer .ftrrmnu {height:auto;}
+    footer .wrapper {overflow: hidden;height: auto;padding-bottom: 85px;}
+	
+
+}
+
+
+/************************************************************************************
+smaller than 980
+*************************************************************************************/
+
+@media screen and (max-width: 980px) {
+	/* your code here */
+	html {overflow-x: hidden;}
+	
+		
+}
+
+/************************************************************************************
+smaller than 960
+*************************************************************************************/
+
+@media screen and (max-width: 960px) {
+	/* your code here */
+	html {overflow-x: hidden;}
+    .wrapper {width:95%;}
+    .main {width: 95%;margin: 0px auto;}
+    .main .grid-5 {width: calc(40% - 50px);}
+    .main .grid-6 {width: calc(60% - 50px);}
+    section.about-lavinia .quotes {width: 50%;}
+    section.about-lavinia .actions {width: 50%;}
+
+    .feature-s .fetre-box {width: calc(33.33% - 14px);}
+
+    footer {overflow:hidden;}
+    footer .ftrrmnu {height: auto;width: calc(50% - 30px); text-align:center;margin-bottom: 40px;}
+
+    section.about-content .gd6-wrap {width: calc(50% - 50px) !important;}
+	
+}
+
+/************************************************************************************
+smaller than 768
+*************************************************************************************/
+
+@media screen and (max-width: 768px) {
+	
+	/* your code here */
+    html {overflow-x: hidden;}
+    
+    .main .grid-5 {width: 55%;padding: 0px;margin: 0px auto;float: none;}
+    .main .grid-6 {width: 100%;padding: 0px;float: none;margin-top: 125px;}
+
+    section.about-lavinia .quotes {width: 100%;}
+    section.about-lavinia .actions {width: 80%;margin: 0px auto;}
+
+    .sig-form {width:100%;}
+
+    footer .ftrrmnu {width:100%;padding: 0px !important;}
+    footer .ftrrmnu p {text-align:center;}
+
+    section.welcome-site .title-left {display:none;}
+    section.welcome-site .title-right {display:none;}
+    section.welcome-site .wrapper {width:95%;}
+
+    section.about-lavinia .title-right {right: -18%;}
+    
+    section.about-content .gd6-wrap {width: 100% !important;padding: 0px !important;float: none;margin-bottom: 25px;}
+    section.about-content h2 {padding:0px;}
+    section.about-content h2 span {height:auto;}
+
+    ul.cl-nav > li {width: 100%;float: none;padding-left: 0px;text-align: center;margin-bottom: 40px;}
+    .menubar .content {margin-top: 14vh;overflow-y: scroll;}
+
+    
+}
+
+/************************************************************************************
+smaller than 680
+*************************************************************************************/
+
+@media screen and (max-width: 680px) {
+	/* your code here */
+    html {overflow-x: hidden;}
+    
+    .feature-s .fetre-box {width: 100%;margin: 20px 0;}
+    .feature-s .fetbox-mid {margin: 0px;}
+	
+}
+
+@media screen and (max-width: 640px) {
+	/* your code here */
+	html {overflow-x: hidden;}
+    .wrapper {width:90% !important;}
+    
+    .main .grid-5 {width: 85%;}
+    section.about-lavinia .content p {width:100%;}
+    section.about-lavinia .actions {width: 100%;margin: 0px auto;}
+
+    ul.wn-content > li {width:100%; padding:0px;}
+
+    section.about-lavinia .title-right {display:none;}
+    .main .grid-6 {margin-top: 45px;}
+
+    .form-content .se-group .diformdivide {width:90%; float:none;margin: 0px auto;}
+    .form-content .se-group .diformfull {width:90%; float:none;margin: 0px auto;}
+	
+}
+
+
+
+/************************************************************************************
+smaller than 480
+*************************************************************************************/
+
+@media screen and (max-width: 480px) {
+	/* your code here */
+	html {overflow-x: hidden; }
+	
+	
+}
+
+/************************************************************************************
+smaller than 380
+*************************************************************************************/
+@media screen and (max-width: 380px) {
+	.wrapper {width:90%;}
+	
+
+}
+
+@media screen and (max-width: 360px) {
+	/* your code here */
+	html {overflow-x: hidden; }
+	
+	
+}
+
+@media screen and (max-width: 320px) {
+	/* your code here */
+	html {overflow-x: hidden; }
+}
